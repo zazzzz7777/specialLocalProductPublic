@@ -1,0 +1,237 @@
+/* pages/register/register.wxss */
+
+
+.register-container {
+min-height: calc(100vh - 44px);
+box-sizing: border-box;
+}
+
+.content-box {
+min-height
+:100vh;
+width
+:100%;
+padding
+:10px 0 0 0;
+position
+:relative;
+background
+:#fff;
+height
+:auto;
+}
+.userInfo-from{
+padding
+:24px 12px 24px 12px;
+margin
+:10px 10px 10px 10px;
+border-radius
+:0 0 10px 10px;
+background
+:#ffffff;
+display
+:block;
+height
+:auto;
+}
+.item-box{
+padding
+:2px 10px 2px 10px;
+margin
+:0 0 16px 0;
+border-color
+:#cd9ec3;
+align-items
+:center;
+border-radius
+:0px;
+border-width
+:0 0 1px 0;
+display
+:flex;
+width
+:100%;
+border-style
+:dotted;
+height
+:auto;
+}
+.item-label{
+line-height
+:40px;
+font-size
+:14px;
+color
+:#333;
+text-align
+:right;
+padding-left:40rpx;
+padding-right: 20rpx;
+}
+.item-input{
+border
+:0;
+padding
+:0px 12px 0px 12px;
+margin
+:0 0 0 0;
+color
+:#000;
+border-radius
+:4px;
+flex
+:1;
+background
+:#ffffff00;
+font-size
+:14px;
+height
+:40px;
+}
+.item-img{
+width
+:40px;
+border-radius
+:100%;
+object-fit
+:cover;
+display
+:block;
+height
+:40px;
+}
+
+.down-item-picker{
+width
+:100%;
+flex
+:1;
+height
+:auto;
+}
+.down-item-picker-text{
+width
+:100%;
+line-height
+:40px;
+font-size
+:14px;
+color
+:#999;
+}
+.save-btn{
+border
+:0;
+padding
+:0 20px 0 20px;
+margin
+:0 10px 0 10px;
+color
+:#fff;
+border-radius
+:4px;
+background
+:#cd9ec3;
+width
+:auto;
+line-height
+:40px;
+font-size
+:14px;
+min-width
+:100px;
+height
+:40px;
+}
+.quite-btn{
+border
+:0px solid #46b78650;
+padding
+:0 0 0 0;
+margin
+:0 10px 0 10px;
+color
+:#fff;
+border-radius
+:4px;
+background
+:#B6BBA6;
+width
+:auto;
+line-height
+:40px;
+font-size
+:14px;
+min-width
+:100px;
+height
+:40px;
+}
+.btn-box{
+width
+:100%;
+margin
+:20px 0 0 0;
+justify-content
+:center;
+display
+:flex;
+height
+:auto;
+}
+.item-radio-itemBox{
+align-items
+:center;
+display
+:flex;
+}
+.item-radio-item{
+align-items
+:center;
+margin
+:0 10px 0 0;
+display
+:flex;
+}
+
+.item-checkbox-itemBox{
+align-items
+:center;
+display
+:flex;
+display: flex;
+
+}
+.radio-itemText{
+color
+:#666;
+}
+
+.item-checkbox-item{
+align-items
+:center;
+margin
+:0 10px 0 0;
+display
+:flex;
+display: flex;
+margin-right: 20rpx;
+}
+.active{
+color
+:#cd9ec3;
+}
+checkbox .wx-checkbox-input {
+border-color
+:#666;
+background
+:#fff;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+color
+:#fff;
+border-color
+:#cd9ec3;
+background
+:#cd9ec3;
+}

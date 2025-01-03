@@ -1,0 +1,40 @@
+<view class="detail-container" >
+<view class="content"   bind:tap="authTap">
+<view class="detail-box">
+
+
+
+
+
+
+
+
+
+
+<view class="textarea-box">
+<view class="textarea-label">公告内容</view>
+<view class="textarea-text">
+    <rich-text nodes="{{detailList.content}}"></rich-text>
+</view>
+</view>
+
+
+</view>
+
+<view class="operate-box">
+
+
+
+
+
+
+
+
+</view>
+
+</view>
+
+
+
+
+</view>

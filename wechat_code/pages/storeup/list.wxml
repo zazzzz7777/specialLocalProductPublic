@@ -1,0 +1,32 @@
+<view class="goodsClassify-container ">
+    <view class="content">
+        <view class="search">
+            <view class="search-inp-box">
+                <text class="iconfont icon-sousuo1"></text>
+                <input class="search-input" model:value="{{name}}" type="text" id=""   placeholder="名称" />
+            </view>
+            <view class="searchBtn"  bind:tap="search"  >搜索</view>
+
+        </view>
+
+        <view style="display: flex;">
+
+            <view class="goodsList-box {{className}}">
+                <view class="goods-item" wx:for="{{goodsListData}}">
+                    <view class="goods-title" data-item="{{item}}" bind:tap="detailBtn">
+                        {{item.name}}
+                    </view>
+                    <image class="goods-img" data-item="{{item}}" bind:tap="detailBtn" src="{{baseURL+item.picture[0]}}" mode="aspectFill" />
+                    <view class="operate-shangpin">
+                        <view style=" display: flex;width:inherit;justify-content: space-between;">
+                        </view>
+                    </view>
+                </view>
+
+
+            </view>
+
+
+        </view>
+    </view>
+</view>
